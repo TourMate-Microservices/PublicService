@@ -1,0 +1,6 @@
+open:
+  api:
+    title: Tourmate Public Service Microservice
+    version: 1.0.0
+    description: Public Service for Tourmate Microservice
+    serverUrl: http://localhost:8080

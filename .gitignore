@@ -1,98 +1,33 @@
-## .NET & Visual Studio .gitignore ##
-## Based on: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-###############
-## Build results
-###############
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
-[Bb]uild/
-[Bb]uild[Ll]og.*
-[Dd]ebug*/
-[Rr]elease*/
-[Rr]eleases*/
-x64/
-x86/
-[Aa][Rr][Mm]*/
-[Aa][Rr][Mm]64/
-bld/
-ipch/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-###############
-## Visual Studio
-###############
-.vs/
-**/.vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-###############
-## ASP.NET
-###############
-appsettings.json
-appsettings.*.json
-secrets.json
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-###############
-## Rider (JetBrains)
-###############
-.idea/
-*.sln.iml
-
-###############
-## Logs & Temporary
-###############
-*.log
-*.tlog
-*.cache
-*.tmp
-*.bak
-~$*
-*~
-
-###############
-## NuGet
-###############
-*.nupkg
-*.snupkg
-project.lock.json
-project.fragment.lock.json
-artifacts/
-packages/
-*.nuspec
-*.psmdcp
-
-###############
-## Testing & Coverage
-###############
-TestResult.xml
-[Tt]est[Rr]esult*/
-*.trx
-*.coverage
-*.coveragexml
-*.codecoverage
-*.vsp
-*.vspx
-*.vspscc
-*.psess
-*.pidb
-*.scc
-CodeCoverage/
-
-###############
-## Build Artifacts / Logs
-###############
-*.binlog
-*.mdb
-*.pdb
-
-###############
-## Others
-###############
-ScaffoldingReadMe.txt
-_ReSharper*/
-*.DotSettings.user
+### VS Code ###
+.vscode/
